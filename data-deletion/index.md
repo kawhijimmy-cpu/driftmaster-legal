@@ -93,7 +93,8 @@ If you are the guardian of a minor and wish to delete their data, please contact
 
 - 隐私保护指引 / Privacy Policy：../privacy-policy/#data-deletion
 - 用户协议 / User Agreement：../terms-of-service/
-- 儿童隐私保护指引 / Children's Privacy Policy、第三方信息共享清单 / Third-Party Data Sharing List：见游戏内登录页链接
+- 儿童隐私保护指引 / Children's Privacy Policy：https://kawhijimmy-cpu.github.io/driftmaster-legal/children-privacy/
+- 第三方信息共享清单 / Third-Party Data Sharing List：https://kawhijimmy-cpu.github.io/driftmaster-legal/third-party-sharing/
 
 ## 8. 更新记录 / Updates
 
