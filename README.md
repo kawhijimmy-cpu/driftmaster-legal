@@ -1,5 +1,7 @@
 # 法律文档网页（发布用）
 
+> ✅ 已发布：https://kawhijimmy-cpu.github.io/driftmaster-legal/ （2026-09-27 验证 6 个页面均返回 200）
+
 这个文件夹里的 5 份文档就是要发布成公网链接的内容。目录名与旧站保持一致，所以以后换域名只需要改域名，不用改路径。
 
 发布后的地址形如：
@@ -20,7 +22,7 @@
 4. 等 1~2 分钟，得到地址：
    - 仓库名是 `<用户名>.github.io` → `https://<用户名>.github.io/privacy-policy/`
    - 仓库名是 `driftmaster-legal` → `https://<用户名>.github.io/driftmaster-legal/privacy-policy/`
-5. 逐个打开上面 5 个地址确认都能正常显示（https、公网可访问、无需登录）。
+5. 逐个打开上面 6 个地址确认都能正常显示（https、公网可访问、无需登录）。
 
 > 用其它托管（Cloudflare Pages / Vercel / Netlify）也可以，但那些平台不会自动把 Markdown 转成网页；需要的话告诉我，我把这 5 份改成自包含 HTML。
 
