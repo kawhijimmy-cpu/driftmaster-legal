@@ -1,7 +1,7 @@
 # 漂移高手隐私保护指引 / Drift Master Privacy Policy
 
 **生效日期 / Effective Date:** 2026-09-14
-**最后更新 / Last Updated:** 2026-09-25
+**最后更新 / Last Updated:** 2026-09-27
 **开发者 / Developer:** SPIELPHANTOMLIMITED  
 **联系邮箱 / Contact Email:** `kawhijimmy@spielphantom.com`
 
@@ -25,9 +25,9 @@ This Privacy Policy explains how Drift Master collects, uses, stores, shares, an
 
 ## 3. 我们不收集的信息 / Information We Do Not Collect
 
-当前版本不请求或收集精确地理位置、通讯录、短信、相册、麦克风、摄像头、通话记录或浏览器历史。本游戏接入 Google AdMob 横幅和插屏广告，但当前没有应用内购买 SDK 或公共社交信息流。
+当前版本不请求或收集精确地理位置、通讯录、短信、相册、麦克风、摄像头、通话记录或浏览器历史。本游戏接入 Google AdMob 横幅、插屏和激励视频广告；激励视频仅在玩家主动选择观看时展示，完成观看后用于发放游戏内奖励。当前没有应用内购买 SDK 或公共社交信息流。
 
-The current version does not request or collect precise location, contacts, SMS, photo gallery, microphone, camera, call logs, or browsing history. The game integrates Google AdMob banner and interstitial ads, but currently has no in-app-purchase SDK or public social feed.
+The current version does not request or collect precise location, contacts, SMS, photo gallery, microphone, camera, call logs, or browsing history. The game integrates Google AdMob banner, interstitial, and rewarded video ads. Rewarded videos are shown only when the player chooses to watch them, and the reward is granted after completion. The current version has no in-app-purchase SDK or public social feed.
 
 ## 4. 信息的使用目的 / Purposes of Use
 
