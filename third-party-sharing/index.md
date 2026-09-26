@@ -1,6 +1,7 @@
 # 漂移高手第三方信息共享清单 / Drift Master Third-Party Data Sharing List
 
 **生效日期 / Effective Date:** 2026-09-14  
+**最后更新 / Last Updated:** 2026-09-27
 **开发者 / Developer:** SPIELPHANTOMLIMITED
 
 ## 1. 共享原则 / Sharing Principles
@@ -34,8 +35,8 @@ The developer does not sell player personal information. The sharing described b
 | 项目 / Item | 中文 / Chinese | English |
 | --- | --- | --- |
 | 服务提供方 | Google LLC | Google LLC |
-| 使用场景 | 横幅广告和插屏广告展示、广告加载、展示统计与用户同意管理 | Banner and interstitial ads, ad loading, impression reporting, and consent management |
-| 可能共享信息 | Android 广告标识、设备型号、操作系统、应用版本、网络状态、IP 地址和广告交互信息 | Android advertising ID, device model, OS version, app version, network state, IP address, and ad interaction data |
+| 使用场景 | 横幅广告、插屏广告和激励视频广告展示、广告加载、展示统计与用户同意管理 | Banner, interstitial, and rewarded video ads, ad loading, impression reporting, and consent management |
+| 可能共享信息 | Android 广告标识、设备型号、操作系统、应用版本、网络状态、IP 地址、广告交互信息和激励视频完成状态 | Android advertising ID, device model, OS version, app version, network state, IP address, ad interaction data, and rewarded-video completion status |
 | 共享触发条件 | 用户完成 UMP 同意流程，并且进入展示广告的场景 | After the UMP consent flow is complete and the player enters an ad-supported scene |
 | 隐私政策 | Google 隐私权政策 / Google Privacy Policy | [Google Privacy Policy](https://policies.google.com/privacy) |
 
@@ -51,8 +52,8 @@ App stores and operating systems may process device identifiers, store-account s
   Unity Analytics: active analytics is not enabled in the current build.
 - Unity Cloud Save：UGS 设置中当前为关闭状态。  
   Unity Cloud Save: currently disabled in the UGS settings.
-- Rewarded 广告：当前未接入，因为工程中尚未配置激励广告单元。  
-  Rewarded ads: not integrated because no rewarded ad unit is configured yet.
+- Rewarded 广告：已接入。仅在玩家主动选择观看时展示；完成观看后发放游戏内奖励，玩家不观看也可以继续使用不依赖该奖励的功能。  
+  Rewarded ads: integrated. They are shown only when the player chooses to watch; the reward is granted after completion, and the player can continue using features that do not depend on the reward without watching.
 - 第三方登录以外的社交网络：当前未接入公共社交功能。  
   Social networks other than third-party sign-in: no public social features are integrated.
 
@@ -62,6 +63,12 @@ App stores and operating systems may process device identifiers, store-account s
 | --- | --- |
 | `android.permission.INTERNET` | 登录、排行榜、云端存档和网络诊断 |
 | `android.permission.ACCESS_NETWORK_STATE` | 判断网络是否可用及连接状态 |
+| `com.google.android.gms.permission.AD_ID` | AdMob 广告标识，用于广告投放、频次控制和反作弊；玩家可在系统设置中重置或删除广告 ID |
+| `android.permission.ACCESS_ADSERVICES_AD_ID` | Android 广告服务访问广告 ID，由 AdMob SDK 合并加入 |
+| `android.permission.ACCESS_ADSERVICES_ATTRIBUTION` | Android 广告服务归因，由 AdMob SDK 合并加入 |
+| `android.permission.ACCESS_ADSERVICES_TOPICS` | Android 广告服务主题，由 AdMob SDK 合并加入 |
+| `android.permission.WAKE_LOCK` | 广告 SDK 在展示广告或视频时保持必要的唤醒状态 |
+| `android.permission.FOREGROUND_SERVICE` | 广告 SDK 在特定场景下使用前台服务能力 |
 
 ## 7. 联系与更新 / Contact and Updates
 
